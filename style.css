@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background: url('/background.jpg') center no-repeat;
+    color: white;
+}
+
+h1{
+    font-family: 'Vibur', cursive;
+}
+
+p{
+    line-height: 2em;
+}
+
+input, button{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+    padding : 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+
+button{
+    font-weight: bold;
+    background: orange;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+#formtype{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
